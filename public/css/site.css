@@ -29,6 +29,7 @@ span {
   color: #eea0df;
   text-shadow: 2px 2px #582fa8;
   margin-left: 10px;
+  cursor: pointer;
 }
 
  footer {
