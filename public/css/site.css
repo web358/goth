@@ -101,6 +101,10 @@ margin-top: 30%;
 margin-left: 10%;
 }
 
+.menu span {
+  cursor: pointer;
+}
+
 .info div{
   display: none;
   position: absolute;
