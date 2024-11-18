@@ -43,6 +43,7 @@ let closeBtn = Array.from(document.querySelectorAll('.close-btn span')).slice(0,
 
   function onBlur(){
     document.querySelector('.expl').style.display = 'none'
+    document.querySelector('h3').classList.add('blurred')
     document.querySelector('.bg-images').classList.add('blurred')
     document.querySelector('.menu').classList.add('blurred')
     document.querySelector('.playNav').classList.add('blurred')
