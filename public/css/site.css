@@ -29,7 +29,6 @@ span {
   color: #eea0df;
   text-shadow: 2px 2px #582fa8;
   margin-left: 10px;
-  cursor: pointer;
 }
 
  footer {
@@ -139,12 +138,15 @@ margin-left: 5%;
 .one {
   margin-left: -65%;
 }
-.two, .three {
+.two {
   margin-left: -45%;
+}
+.three {
+  margin-left: -55%;
 }
 
 .four {
-  margin-left: -55%;
+  margin-left: -75%;
 }
 
 
@@ -258,19 +260,28 @@ left: 0;
   width: 280px;
   height: 455px;
   border-radius: 5px;
+  z-index: 0;
 }
 
 .close-btn {
   position: absolute;
-  margin-top: -90%;
+  margin-top: 50%;
   margin-left: -10%;
   border: none;
   background-color: inherit;
   cursor: pointer;
-  z-index: 0;
+  z-index: 1;
 }
 
 .blurred {
   filter: blur(4px);
 }
+ .blurSpan {
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: 0;
+  margin-top: 30%;
+  z-index: 0;
+ }
  
