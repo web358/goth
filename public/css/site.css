@@ -30,7 +30,6 @@ span {
   text-shadow: 2px 2px #582fa8;
   margin-left: 10px;
 }
-
  footer {
   position: absolute;
   margin-top: 80%;
@@ -248,10 +247,11 @@ left: 0;
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
 }
 .img-text {
+  margin-top: -5%;
   display: none;
   border-radius: 5px;
 }
@@ -279,9 +279,9 @@ left: 0;
  .blurSpan {
   position: absolute;
   width: 300px;
-  top: 0;
+  /* top: 0; */
   left: 0;
-  margin-top: 30%;
+  margin-top: 90%;
   z-index: 0;
  }
  
