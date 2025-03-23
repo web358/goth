@@ -114,7 +114,7 @@ margin-left: 5%;
 .info img {
   position: absolute;
   margin-top: -20%;
-  /* margin-left: -65%; */
+  margin-left: -65%;
   border-radius: 5px;
   z-index: -1;
 }
@@ -134,19 +134,19 @@ margin-left: 5%;
 .one, .two, .three, .four {
   margin-top: -20%;
 }
-.one {
+/* .one {
   margin-left: -65%;
-}
-.two {
-  margin-left: -45%;
-}
-.three {
+} */
+/* .two {
+  margin-left: 5%;
+} */
+/* .three {
   margin-left: -55%;
 }
 
 .four {
   margin-left: -75%;
-}
+} */
 
 
   .playNav {
@@ -284,4 +284,3 @@ left: 0;
   margin-top: 90%;
   z-index: 0;
  }
- 
